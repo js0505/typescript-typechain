@@ -1,0 +1,11 @@
+{
+    // 자바스크립트로 컴파일 하는 옵션
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2015",
+        "sourceMap": true
+    },
+    // 컴파일 과정에 포함되는, 포함되지 않는 파일
+    "include": ["index.ts"],
+    "exclude": ["node_modules"]
+}
